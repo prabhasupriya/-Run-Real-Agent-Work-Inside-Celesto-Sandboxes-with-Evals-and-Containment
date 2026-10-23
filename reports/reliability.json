@@ -1,0 +1,214 @@
+{
+  "run_count": 20,
+  "success_rate": 0.95,
+  "median_wall_clock_s": 4.383,
+  "p90_wall_clock_s": 5.456,
+  "median_boot_to_ready_s": 0.7335,
+  "total_cost_usd": 0.00036,
+  "mode": "mock",
+  "pricing_note": "cost_usd = wall_clock_s * $0.015/hr (Micro size) / 3600",
+  "postmortem_path": "reports/postmortem.md",
+  "runs": [
+    {
+      "sandbox_name": "sbx-bcce5c08a5",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.475,
+      "boot_to_ready_s": 0.773,
+      "cost_usd": 1.9e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-22e419bf1d",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.486,
+      "boot_to_ready_s": 0.624,
+      "cost_usd": 1.9e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-bd796c56fb",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.438,
+      "boot_to_ready_s": 0.676,
+      "cost_usd": 1.8e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-12cf54f99f",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 3.848,
+      "boot_to_ready_s": 0.463,
+      "cost_usd": 1.6e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-b1f883f1e1",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.289,
+      "boot_to_ready_s": 0.725,
+      "cost_usd": 1.8e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-e3181ded86",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 3.905,
+      "boot_to_ready_s": 0.431,
+      "cost_usd": 1.6e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-1b5b300624",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 0.799,
+      "boot_to_ready_s": 0.649,
+      "cost_usd": 3e-06,
+      "recovered_failures": 0,
+      "error": "SandboxError: boot probe timed out (simulated)"
+    },
+    {
+      "sandbox_name": "sbx-7c3f16f68b",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.399,
+      "boot_to_ready_s": 0.95,
+      "cost_usd": 1.8e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-e9371e0bc8",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.602,
+      "boot_to_ready_s": 1.207,
+      "cost_usd": 2.3e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-4dbbd7f518",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.618,
+      "boot_to_ready_s": 1.055,
+      "cost_usd": 2.3e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-dbfcabd2aa",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.093,
+      "boot_to_ready_s": 0.611,
+      "cost_usd": 1.7e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-ee629848ff",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.895,
+      "boot_to_ready_s": 0.746,
+      "cost_usd": 2e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-2ea01c0707",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.367,
+      "boot_to_ready_s": 0.961,
+      "cost_usd": 1.8e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-3ad29c79b9",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 3.959,
+      "boot_to_ready_s": 0.742,
+      "cost_usd": 1.6e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-1a9bb9cedc",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.067,
+      "boot_to_ready_s": 0.653,
+      "cost_usd": 1.7e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-7573ab628c",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.943,
+      "boot_to_ready_s": 0.521,
+      "cost_usd": 2.1e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-f440bbc2da",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.029,
+      "boot_to_ready_s": 0.801,
+      "cost_usd": 1.7e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-1e27fd34b1",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.075,
+      "boot_to_ready_s": 0.627,
+      "cost_usd": 1.7e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-cf476d5426",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.082,
+      "boot_to_ready_s": 1.159,
+      "cost_usd": 2.1e-05,
+      "recovered_failures": 0,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-2dba7a93be",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.456,
+      "boot_to_ready_s": 0.895,
+      "cost_usd": 2.3e-05,
+      "recovered_failures": 1,
+      "error": null
+    }
+  ],
+  "warning": "SIMULATED: produced by the in-memory mock provider with injected faults. Re-run with AGENT_EXECUTOR=celesto for real Celesto numbers."
+}

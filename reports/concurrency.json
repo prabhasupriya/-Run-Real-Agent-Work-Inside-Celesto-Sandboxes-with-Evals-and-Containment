@@ -1,0 +1,42 @@
+{
+  "jobs": [
+    {
+      "sandbox_name": "sbx-541c96e59c",
+      "started_at": "2026-10-23T02:58:37.881521+00:00",
+      "success": true,
+      "wall_clock_s": 4.926,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-5a1ac516b5",
+      "started_at": "2026-10-23T02:58:37.882268+00:00",
+      "success": false,
+      "wall_clock_s": 0.813,
+      "error": "SandboxError: boot probe timed out (simulated)"
+    },
+    {
+      "sandbox_name": "sbx-30fb777c0e",
+      "started_at": "2026-10-23T02:58:37.882644+00:00",
+      "success": true,
+      "wall_clock_s": 4.324,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-339426e252",
+      "started_at": "2026-10-23T02:58:37.883452+00:00",
+      "success": true,
+      "wall_clock_s": 4.789,
+      "error": null
+    },
+    {
+      "sandbox_name": "sbx-fda434e260",
+      "started_at": "2026-10-23T02:58:37.883292+00:00",
+      "success": true,
+      "wall_clock_s": 5.435,
+      "error": null
+    }
+  ],
+  "breakage_notes": "Watched: name collisions (0 found across 5 concurrent jobs), shared state (each guest has its own disk; audit/trace writers are lock-protected), leaked guests after the batch (0), failed jobs (1). Failures: SandboxError: boot probe timed out (simulated) SIMULATED run: provider rate limits, per-account sandbox caps (free trial = 1 retained sandbox) and real cost blow-up were NOT exercised. Re-run with the local runtime or a paid top-up to observe them.",
+  "mode": "mock",
+  "leaked_after_batch": []
+}

@@ -1,0 +1,12 @@
+{
+  "cleanup_on_success": true,
+  "cleanup_on_failure": true,
+  "cleanup_on_interrupt": true,
+  "sandbox_names": [
+    "sbx-6118e319e4",
+    "sbx-f311c3e318",
+    "sbx-5b166669e0"
+  ],
+  "mechanism": "agent/task.py run_job(): try/except/finally deletes every guest it created (including fresh-policy replacements); KeyboardInterrupt/SIGTERM propagate through finally. Names are sbx-<uuid4 hex[:10]>, never reused.",
+  "mode": "mock"
+}

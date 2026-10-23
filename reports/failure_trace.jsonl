@@ -1,0 +1,29 @@
+{"ts": "2026-10-23T02:58:37.821633+00:00", "event": "created", "sandbox_name": "sbx-984704a721"}
+{"ts": "2026-10-23T02:58:37.821805+00:00", "event": "ready", "sandbox_name": "sbx-984704a721"}
+{"ts": "2026-10-23T02:58:37.821846+00:00", "event": "running", "sandbox_name": "sbx-984704a721"}
+{"ts": "2026-10-23T02:58:37.821876+00:00", "event": "step_started", "sandbox_name": "sbx-984704a721", "step": 1, "step_name": "prepare_workspace"}
+{"ts": "2026-10-23T02:58:37.821981+00:00", "event": "step_succeeded", "sandbox_name": "sbx-984704a721", "step": 1, "step_name": "prepare_workspace"}
+{"ts": "2026-10-23T02:58:37.822011+00:00", "event": "step_started", "sandbox_name": "sbx-984704a721", "step": 2, "step_name": "probe_python"}
+{"ts": "2026-10-23T02:58:37.822106+00:00", "event": "step_succeeded", "sandbox_name": "sbx-984704a721", "step": 2, "step_name": "probe_python"}
+{"ts": "2026-10-23T02:58:37.822134+00:00", "event": "step_started", "sandbox_name": "sbx-984704a721", "step": 3, "step_name": "ensure_pytest"}
+{"ts": "2026-10-23T02:58:37.822312+00:00", "event": "step_succeeded", "sandbox_name": "sbx-984704a721", "step": 3, "step_name": "ensure_pytest"}
+{"ts": "2026-10-23T02:58:37.822340+00:00", "event": "step_started", "sandbox_name": "sbx-984704a721", "step": 4, "step_name": "write_fixture"}
+{"ts": "2026-10-23T02:58:37.822708+00:00", "event": "step_succeeded", "sandbox_name": "sbx-984704a721", "step": 4, "step_name": "write_fixture"}
+{"ts": "2026-10-23T02:58:37.822743+00:00", "event": "step_started", "sandbox_name": "sbx-984704a721", "step": 5, "step_name": "write_bug_report"}
+{"ts": "2026-10-23T02:58:37.823060+00:00", "event": "step_succeeded", "sandbox_name": "sbx-984704a721", "step": 5, "step_name": "write_bug_report"}
+{"ts": "2026-10-23T02:58:37.823090+00:00", "event": "step_started", "sandbox_name": "sbx-984704a721", "step": 6, "step_name": "generate_test"}
+{"ts": "2026-10-23T02:58:37.823409+00:00", "event": "step_succeeded", "sandbox_name": "sbx-984704a721", "step": 6, "step_name": "generate_test"}
+{"ts": "2026-10-23T02:58:37.823439+00:00", "event": "step_started", "sandbox_name": "sbx-984704a721", "step": 7, "step_name": "run_test"}
+{"ts": "2026-10-23T02:58:37.823631+00:00", "event": "step_failed", "sandbox_name": "sbx-984704a721", "step": 7, "step_name": "run_test", "error": "injected crash at step 7 (simulated OOM-kill of the test runner)", "attempt": 1}
+{"ts": "2026-10-23T02:58:37.823663+00:00", "event": "mid_task_failure", "sandbox_name": "sbx-984704a721", "step": 7}
+{"ts": "2026-10-23T02:58:37.823754+00:00", "event": "policy_applied", "sandbox_name": "sbx-984704a721", "policy": "resume", "step": 7, "detail": "same guest and disk kept; retrying the failed step only"}
+{"ts": "2026-10-23T02:58:37.823783+00:00", "event": "step_started", "sandbox_name": "sbx-984704a721", "step": 7, "step_name": "run_test"}
+{"ts": "2026-10-23T02:58:37.823998+00:00", "event": "step_succeeded", "sandbox_name": "sbx-984704a721", "step": 7, "step_name": "run_test"}
+{"ts": "2026-10-23T02:58:37.824030+00:00", "event": "step_started", "sandbox_name": "sbx-984704a721", "step": 8, "step_name": "classify_failure"}
+{"ts": "2026-10-23T02:58:37.824144+00:00", "event": "step_succeeded", "sandbox_name": "sbx-984704a721", "step": 8, "step_name": "classify_failure"}
+{"ts": "2026-10-23T02:58:37.824173+00:00", "event": "step_started", "sandbox_name": "sbx-984704a721", "step": 9, "step_name": "write_proof"}
+{"ts": "2026-10-23T02:58:37.824910+00:00", "event": "step_succeeded", "sandbox_name": "sbx-984704a721", "step": 9, "step_name": "write_proof"}
+{"ts": "2026-10-23T02:58:37.824944+00:00", "event": "step_started", "sandbox_name": "sbx-984704a721", "step": 10, "step_name": "verify_proof"}
+{"ts": "2026-10-23T02:58:37.825073+00:00", "event": "step_succeeded", "sandbox_name": "sbx-984704a721", "step": 10, "step_name": "verify_proof"}
+{"ts": "2026-10-23T02:58:37.825182+00:00", "event": "job_succeeded", "sandbox_name": "sbx-984704a721"}
+{"ts": "2026-10-23T02:58:37.825220+00:00", "event": "sandbox_deleted", "sandbox_name": "sbx-984704a721", "deleted": "sbx-984704a721"}

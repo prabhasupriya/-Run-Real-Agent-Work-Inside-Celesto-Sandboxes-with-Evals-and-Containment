@@ -1,0 +1,6 @@
+{
+  "who": "Open-source maintainers and QA engineers who receive bug reports and must first prove the bug exists before anyone fixes it, without running untrusted repo code on their own laptop or server.",
+  "agent_work": "Inside a fresh Celesto sandbox the agent writes a fixture, generates a minimal pytest that reproduces the reported bug, runs it, and classifies whether it fails for the right reason (the reported assertion) rather than a broken setup.",
+  "proof_output": "proof.json in the guest certifying fails_for_right_reason=true, plus the captured pytest AssertionError output.",
+  "idea_source": "idea_bank"
+}

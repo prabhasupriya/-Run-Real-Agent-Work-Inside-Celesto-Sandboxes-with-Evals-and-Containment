@@ -1,0 +1,14 @@
+{
+  "capabilities": [
+    {
+      "id": "safety_hooks",
+      "why": "Every command passes through SafetyHook before the guest sees it. It blocks non-allow-listed egress, secret/.env reads and destructive rm, and audits blocked attempts. A prompt-injected README is stopped by code, not by a polite system prompt.",
+      "evidence_path": "agent/hooks.py"
+    },
+    {
+      "id": "persistence",
+      "why": "When step 7 of 10 fails, the resume policy keeps the same guest and disk, restarts it via stop/start if it is unreachable, and retries only the failed step. Without persistent disk state the half-finished workspace would be lost and all six prior steps replayed.",
+      "evidence_path": "agent/task.py"
+    }
+  ]
+}
