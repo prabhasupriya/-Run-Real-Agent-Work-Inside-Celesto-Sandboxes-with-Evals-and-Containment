@@ -147,7 +147,7 @@ that is the one function to adjust. Concurrency needs the local runtime or a pai
 
 ## Demo
 
-`demo/walkthrough.mp4` (≤ 5 min): `docker compose up`, a live run showing the guest, a blocked injection, step-7 recovery.
+`demo/walkthrough.mp4` (≤ 3 min): `docker compose up`, a live run showing the guest, a blocked injection, step-7 recovery.
 Record it after the real run; see `demo/SCRIPT.md`.
 
 ## Credits and disclosure
