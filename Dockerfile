@@ -14,4 +14,5 @@ RUN pip install --no-cache-dir celesto || echo "celesto not installed: mock exec
 COPY . .
 ENV API_PORT=8080
 EXPOSE 8080
-CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${API_PORT:-8080}"]
+# Hosting platforms (Render, Railway, ...) inject PORT; locally/compose API_PORT=8080 is used.
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-${API_PORT:-8080}}"]
