@@ -117,7 +117,7 @@ Concurrency (`reports/concurrency.json`): 5 jobs, unique names, no collisions or
 Control plane (≈2 minutes, no KVM or cloud key needed):
 
 ```bash
-git clone <your-repo> && cd celesto-agent-lab
+git clone https://github.com/prabhasupriya/-Run-Real-Agent-Work-Inside-Celesto-Sandboxes-with-Evals-and-Containment.git && cd celesto-agent-lab
 docker compose up --build -d          # api + ledger become healthy
 curl localhost:8080/health            # {"status":"ok"}
 curl localhost:8080/api/runs          # includes sbx-seeddemo1
@@ -156,4 +156,4 @@ Built with Celesto (sandbox runtime/CLI), FastAPI, psycopg, Postgres. AI assista
 helped write this code; I am responsible for being able to explain every design decision.
 
 ## youtude video
-[watch here](https://youtu.be/zq4YNu3f4wo?si=tx4qUgXD2DCSF3pJ)
+[watch here](https://youtu.be/nSYvBF2Hexg?si=vh3HwG_suFtI-aSo)
